@@ -2,11 +2,11 @@
 
 ## Objective
 
-Design a `BankAccount` class that will perform capabilities of a single Bank Account, a `Bank` class that will house multiple accounts and a `BankingApp` (with a `main` method) to simulate a user interface where you can access your accounts and perform banking transactions.
+Design an `Account` class that will perform capabilities of a single Bank Account, a `Bank` class that will house multiple accounts and a `BankingApp` (with a `main` method) to simulate a user interface where you can access your accounts and perform banking transactions.
 
 ### Tasks
 
-Inside of `BankAccount` Class program the following:
+Inside of `Account` Class program the following:
 - 3 instance variables to handle `String accountNum`, `String type`, and `double balance`
 - note the accountNum will be a unique identifier
 - create the `Constructor` that handles the 3 pieces of instance data in the order mentioned above
@@ -14,11 +14,11 @@ Inside of `BankAccount` Class program the following:
 
 
 Inside of the `Bank` Class complete the following:
-- Create a `map` called `accounts`
+- Create a `list` called `accounts`
 - `public Collection<BankAccount> accounts()` to return all accounts (if you prefer to name your method different please do)
 - A method to add a Bank Account 
-- A `BankAccount` method to get access a particular `accountNum` 
-- A `BankAccount` method to `close` a particular `accountNum`
+- An `Account` method to get access a particular account by `accountNum` 
+- An `Account` method to `close` a particular account by `accountNum`
 
 Hint: Think of what a Bank does...it houses many bank accounts...that is why this class is created to "maintain" the collection
 
@@ -26,7 +26,7 @@ Inside of the `BankingApp` Class program the following:
 - A `Bank` object called `myBank`
 - A `BankAccount` object called `account1` with the following properties `("1111","Checking",500.00)`
 - A `BankAccount` object called `account2` with the following properties `("2222","Savings",2500.00)`
-- Have `myBank` `add` the 2 accounts to the map
+- Have `myBank` `add` the 2 accounts to the collection
 - Set up a user interface to give similar output to the console:
   - Note: When displaying your accounts use an enhanced for loop 
   
@@ -81,3 +81,9 @@ Press 3 to check balance
 Press 4 to close an account
 Press -1 to exit
 ```
+
+## Stretch Tasks
+- Use the NumberFormat class to format your money 
+- Add an option to be able to transfer funds between accounts
+- Build in functionality so that one cannot withdrawal more than what is in an account
+- Password protect your accounts
