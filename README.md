@@ -8,7 +8,7 @@ Design an `Account` class that will perform capabilities of a single Bank Accoun
 
 Inside of `Account` Class program the following:
 - 3 instance variables to handle `String accountNum`, `String type`, and `double balance`
-- note the accountNum will be a unique identifier
+- note the `accountNum` will be a unique identifier
 - create the `Constructor` that handles the 3 pieces of instance data in the order mentioned above
 - create the following methods: appropriate accessor methods and behavior methods needed for bank transactions
 
