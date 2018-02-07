@@ -10,15 +10,15 @@ Inside of `Account` Class program the following:
 - 3 instance variables to handle `String accountNum`, `String type`, and `double balance`
 - note the accountNum will be a unique identifier
 - create the `Constructor` that handles the 3 pieces of instance data in the order mentioned above
-- create the following methods: create appropriate methods needed for bank transactions
+- create the following methods: appropriate accessor methods and behavior methods needed for bank transactions
 
 
 Inside of the `Bank` Class complete the following:
 - Create a `list` called `accounts`
-- `public Collection<BankAccount> accounts()` to return all accounts (if you prefer to name your method different please do)
+- `public void showAllAccounts` to display all accounts (use an enhanced for loop to iterate over the collection)
 - A method to add a Bank Account 
-- An `Account` method to get access a particular account by `accountNum` 
-- An `Account` method to `close` a particular account by `accountNum`
+- A  method to get access a particular account by `accountNum`
+- A  method to `close` a particular account by `accountNum`
 
 Hint: Think of what a Bank does...it houses many bank accounts...that is why this class is created to "maintain" the collection
 
