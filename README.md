@@ -28,7 +28,6 @@ Inside of the `BankingApp` Class program the following:
 - A `BankAccount` object called `account2` with the following properties `("2222","Savings",2500.00)`
 - Have `myBank` `add` the 2 accounts to the collection
 - Set up a user interface to give similar output to the console:
-  - Note: When displaying your accounts use an enhanced for loop 
   
 ### Sample Output
 
